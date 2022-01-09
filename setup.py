@@ -18,4 +18,4 @@ setup(name='bsdotpy',
       license='Apache License 2.0',
       packages=['bsdotpy'],
       zip_safe=False,
-      install_requires=["requests>=2.25.1", "bs4>=4.9.3"])
+      install_requires=["requests", "bs4"])
