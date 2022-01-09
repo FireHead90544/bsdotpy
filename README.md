@@ -54,12 +54,16 @@ player = server.get_player_data(unique_id) # Returns a bsdotpy.BombSquadPlayer o
 
 print(player.name) # Prints the player's name returned by bombsquad server's api
 >>> '꧁༒Firͥe Heͣaͫd༒꧂'
+
 print(player.unique_id) # Prints unique id of the player
 >>> 'pb-IF4rVEQCKg=='
+
 print(player.icon_url) # Prints the url to the icon the player has
 >>> 'http://bombsquadgame.com/img/char/30.png'
+
 print(player.created_at) # Prints a datetime.datetime object of when the player was created
 >>> 2020-02-17 17:10:50
+
 print(repr(player))  # Prints the class object representation of the BombSquadPlayer object
 >>> <BombSquadPlayer unique_id='pb-IF4rVEQCKg==', name='꧁༒Firͥe Heͣaͫd༒꧂', icon_url='http://bombsquadgame.com/img/char/30.png', created_at='2020-02-17 17:10:50'>
 ```
