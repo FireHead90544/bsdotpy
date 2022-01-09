@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     readme = fh.read()
 
 setup(name='bsdotpy',
-      version='0.1.1',
+      version='0.1.2',
       description='BSDotPy, A module to get a bombsquad player\'s account data.',
       long_description=readme,
       long_description_content_type="text/markdown",
